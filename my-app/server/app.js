@@ -1,8 +1,11 @@
 const express = require("express");
 const rapperData = require("../data/data.json")
+const path = require("path");
 
 const app = express();
 app.use(express.json());
+
+app.use(express.static(path.resolve(__dirname, "..", "build")));
 
 app.get('/api/rappers', (req, res) => {
     const results = [];
