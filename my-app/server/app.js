@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.use(express.static(path.resolve(__dirname, "..", "build")));
 
-app.get('/api/rappers', (req, res) => {
+app.get('/api/rappers', (_, res) => {
     const results = [];
     for (const rapper of rapperData) {
         results.push(rapper.fields);
