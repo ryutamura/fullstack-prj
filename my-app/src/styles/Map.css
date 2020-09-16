@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+#rapper-name {
+    font-family: 'Sedgwick Ave', cursive;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+#rapper-city {
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 15px;
+}
+
+#rapper-bio {
+    font-family: 'Sedgwick Ave', cursive;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+#rapper-info {
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+.rapper-links {
+    font-family: 'Sedgwick Ave', cursive;
+}
