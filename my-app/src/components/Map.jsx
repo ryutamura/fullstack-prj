@@ -58,7 +58,7 @@ export default function Gmap({rapperList}) {
             <WrappedMap
                 googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyDJ3sPnmTBMN1DZGJBX9gxuNg-O9mgHOAo`}
                 loadingElement={<div style={{ height: `100%` }} />}
-                containerElement={<div style={{ height: `500px` }} />}
+                containerElement={<div style={{ height: `600px` }} />}
                 mapElement={<div style={{ height: `100%` }} />}
         
             />
