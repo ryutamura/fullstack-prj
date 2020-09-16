@@ -6,7 +6,7 @@ module.exports = {
   development: {
     client: "pg",
     connection: 
-      // process.env.DATABASE_URL ||
+      process.env.DATABASE_URL ||
       'postgres://rtamura@localhost:5432/rappers',
     migrations: {
       directory: __dirname + '/server/db/migrations',
