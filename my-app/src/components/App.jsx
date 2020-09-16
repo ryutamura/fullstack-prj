@@ -12,7 +12,6 @@ function App() {
   useEffect(() => {
     const fetchData = async() => {
       const allRappers = await axios.get('api/rappers')
-      console.log(allRappers.data);
       setRapperList(allRappers.data)
     };
     fetchData();
