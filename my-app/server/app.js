@@ -16,7 +16,8 @@ app.get('/api/rappers', async (_, res) => {
         .from('rapper_info');
         res.json(rapper);
     } catch (err) {
-        res.sendStatus(500);
+        console.log(err)
+        res.send(err);
     }
 });
 
